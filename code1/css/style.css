@@ -1,0 +1,90 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+.index{
+	background-color: black;
+	font-family: 'SegoePrint';
+	height: 100%;
+	display: flex;
+	color: white;
+	 
+}
+.index .left{
+	width:40%;
+	font-size: 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	padding-bottom:10%;
+	padding-right: 5%;
+	box-sizing: border-box;
+	padding-left: 3%;
+}
+.index .left img{
+	width: 40px;
+	vertical-align: middle;
+}
+.index button{
+	width: 100%;
+	background-color: #0000ff;
+	color: white;
+	border: none;
+	height: 60px;
+	font-size: 20px;
+}
+.index .right{
+	display: flex;
+	width: 60%;
+	align-items: center;
+}
+.index .right img{
+	width: 100%;
+}
+.setting{
+	position: absolute;
+	width:50px;
+	left: 5%;
+	top: 5%;
+	}
+	.ren{
+		position: absolute;
+		height:30px;
+		right: 5%;
+		top: 6%;
+		display: none;
+		}
+ @media screen and (max-width:750px) {
+	 .ren{
+		 display: block;
+	 }
+ 	.index{
+		flex-direction: column-reverse;
+		 align-items: flex-end;
+	}
+	.index .right{
+		overflow: hidden;
+	}
+	.index .right img{
+	 
+		height: 50vh;	
+		width: auto;
+	}
+	.index .left{
+		width: 100%;
+		font-size: 30px;
+	}
+	
+	.index button{
+		margin-top: 70px;
+		border-radius: 20px;
+	}
+ }

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="css/p2.css"/>
+		<style type="text/css">
+			 
+				 .more>img:nth-child(1){
+					 display: block;
+				 }
+		</style>
+	</head>
+	<body>
+		<div class="p2">
+			<div class="header">
+				<div class="back">
+					<img src="img/back.png" >
+				</div>
+				<div class="search">
+					<input type="" name="" id="inp" value="" onchange="yanzheng()" />
+					<img src="img/search.png" onclick="yanzheng()">
+				</div>
+				<div class="more">
+					 
+					<img src="img/3.png" >
+				</div>
+			</div>
+			<div class="mask">
+				<ul onclick="location.href='page2.html'">
+					<li>
+						<img src="img/m1.png" >
+						<span>Language</span>
+					</li>
+					<li>
+						<img src="img/m2.png" >
+						<span>Bluetooth</span>
+					</li>
+					<li>
+						<img src="img/m3.png" >
+						<span>Personal Infomation</span>
+					</li>
+					<li>
+						<img src="img/m4.png" >
+						<span>Infomation</span>
+					</li>
+					<li>
+						<img src="img/m5.png" >
+						<span>Sound</span>
+					</li>
+				</ul>
+			</div>
+			 <div class="cont">
+				 <div class="left">
+				  <h3>Choose Your Drame Car</h3>
+				  <div class="box">
+					  <div class="shang">
+						  <div class="icon">
+							  <img src="img/i1.png" >
+							  <img src="img/i2.png" >
+							  <img src="img/i3.png" >
+							  <img src="img/i4.png" >
+						  </div>
+						  <div class="btn-11">
+						  							 <div class="row">
+						  								 <span>Price <img src="img/down.png" ></span>
+						  							 </div>
+						  							 <div class="row">
+						  								 <span>Model <img src="img/down.png" ></span>
+						  							 </div>
+						  							 <div class="row">
+						  							 	 <span>Mileag <img src="img/down.png" ></span>
+						  							 </div>
+						  							 <div class="row">
+						  							 	 <span>Make <img src="img/down.png" ></span>
+						  							 </div>
+						  </div>
+						  <div class="btn-1">
+							 <div class="row">
+								 <span>Min</span>——<span>Price <img src="img/down.png" ></span>
+							 </div>
+							 <div class="row">
+								 <span>Model <img src="img/down.png" ></span>
+							 </div>
+							 <div class="row">
+							 	 <span>Mileage</span>——<span>Max <img src="img/down.png" ></span>
+							 </div>
+							 <div class="row">
+							 	 <span>Make <img src="img/down.png" ></span>
+							 </div>
+						  </div>
+					  </div>
+					  <p>Advenced Search></p>
+					  <div class="btn-2">
+						  <span>Cancel All</span><span>Go</span>
+					  </div>
+				  </div>
+				 </div>
+				 <div class="right">
+				 	<h3>Recommendation</h3>
+					<div class="card-box">
+					<div class="card">
+					
+						<div class="swiper">
+							<div class="item">
+									
+								 
+								<div class="item-left">
+									<h4>Recommendation</h4>
+									<img src="img/p1.png" >
+									</div>
+								<div class="item-right">
+									<div><img src="img/i1.png" ><span>76,000</span></div>
+									<div><img src="img/i2.png" ><span>Comfort</span> </div>
+									<div><img src="img/i3.png" ><span>8744.3KM</span></div>
+									<div><button type="button">Others ></button></div>
+								</div>
+							</div>
+						</div>
+						<div class="change">
+							<span><</span>
+							<span>></span>
+						</div>
+						<div class="point">
+							<ul>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+					</div>
+					<div class="card">
+					
+						<div class="swiper">
+							<div class="item">
+									
+								 
+								<div class="item-left">
+									<h4>Recommendation</h4>
+									<img src="img/p2.png" >
+									</div>
+								<div class="item-right">
+									<div><img src="img/i1.png" ><span>76,000</span></div>
+									<div><img src="img/i2.png" ><span>Comfort</span> </div>
+									<div><img src="img/i3.png" ><span>8744.3KM</span></div>
+									<div><button type="button">Others ></button></div>
+								</div>
+							</div>
+						</div>
+						<div class="change">
+							<span><</span>
+							<span>></span>
+						</div>
+						<div class="point">
+							<ul>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+					</div>
+					</div>
+				 </div>
+			 </div>
+			 <div class="m ren" >	<img src="img/ren.png"></div>
+		</div>
+		<script>
+		function yanzheng(){
+			const inp=document.getElementById('inp')
+			if(!inp.value){
+				alert('搜索内容不能为空')
+			}
+		}
+		</script>
+	</body>
+</html>
